@@ -1,20 +1,39 @@
-# Wav2Pwn
+<h1 align="center">Wav2Pwn</h1>
 
-**Transferability-Guided Surrogate Selection for Black-Box Attacks on Self-Supervised ASR**
+<p align="center">
+  <strong>Transferability-Guided Surrogate Selection for Black-Box Attacks on Self-Supervised ASR</strong>
+</p>
+
+<p align="center">
+  <img alt="Paper" src="https://img.shields.io/badge/Paper-AISTATS%202027-2563eb?style=for-the-badge">
+  <img alt="Artifact" src="https://img.shields.io/badge/Artifact-Anonymous%20Review-7c3aed?style=for-the-badge">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-0284c7?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="Task" src="https://img.shields.io/badge/Task-Black--Box%20ASR-0f766e?style=for-the-badge">
+  <img alt="Focus" src="https://img.shields.io/badge/Focus-Adversarial%20Transfer-f97316?style=for-the-badge">
+</p>
+
+<p align="center">
+  <img alt="Wav2Pwn research artifact banner" src="assets/wav2pwn_readme_banner.svg">
+</p>
+
+<p align="center">
+  <strong>Wav2Pwn</strong> turns family-level adversarial transfer patterns in SSL-ASR models into a low-query black-box attack strategy.
+  It probes the target model, matches its behavioral signature to a white-box surrogate family, and transfers targeted or untargeted adversarial audio from the selected surrogate.
+</p>
+
+<p align="center">
+  <a href="#highlights">Highlights</a> ·
+  <a href="#method-overview">Method</a> ·
+  <a href="#main-workflows">Workflows</a> ·
+  <a href="#data">Data</a> ·
+  <a href="#review-notes">Review Notes</a>
+</p>
+
+---
 
 This repository contains the code artifact for an AISTATS 2027 submission on
 black-box adversarial attacks against self-supervised automatic speech
 recognition (ASR) systems.
-
-Wav2Pwn studies a striking empirical behavior of modern SSL-based ASR models:
-adversarial examples often transfer strongly within the same representation
-family, while cross-family transfer can drop sharply. The project turns this
-family-level transfer structure into a practical black-box attack strategy. A
-small probing set is used to estimate the target model's behavioral signature,
-match it to a white-box surrogate family, and then generate transferable
-adversarial audio on the selected surrogate.
-
-![Wav2Pwn attack framework](assets/wav2pwn_attack_framework.gif)
 
 ## Highlights
 
@@ -208,4 +227,3 @@ the exact fine-tuned CTC release used in the paper is not publicly available
 under the same identifier. These overrides do not change the structure of the
 pipeline; they only point the scripts to the appropriate local or hosted model
 checkpoint.
-
