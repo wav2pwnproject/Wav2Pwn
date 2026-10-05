@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img alt="Wav2Pwn research artifact banner" src="assets/wav2pwn_readme_banner.svg">
+  <img alt="Wav2Pwn transfer signature map" src="assets/wav2pwn_transfer_signature_map.svg">
 </p>
 
 <p align="center">
@@ -34,6 +34,10 @@
 This repository contains the code artifact for an AISTATS 2027 submission on
 black-box adversarial attacks against self-supervised automatic speech
 recognition (ASR) systems.
+
+## Framework
+
+![Wav2Pwn attack framework](assets/wav2pwn_attack_framework.gif)
 
 ## Highlights
 
@@ -58,6 +62,7 @@ recognition (ASR) systems.
 ```text
 Wav2Pwn/
 ├── assets/
+│   ├── wav2pwn_transfer_signature_map.svg
 │   └── wav2pwn_attack_framework.gif
 ├── blackbox_surrogate_asr/
 │   ├── configs/
