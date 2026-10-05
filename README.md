@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-  <img alt="Paper" src="https://img.shields.io/badge/Paper-AISTATS%202027-2563eb?style=for-the-badge">
-  <img alt="Artifact" src="https://img.shields.io/badge/Artifact-Anonymous%20Review-7c3aed?style=for-the-badge">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-0284c7?style=for-the-badge&logo=python&logoColor=white">
-  <img alt="Task" src="https://img.shields.io/badge/Task-Black--Box%20ASR-0f766e?style=for-the-badge">
-  <img alt="Focus" src="https://img.shields.io/badge/Focus-Adversarial%20Transfer-f97316?style=for-the-badge">
+  <img alt="AISTATS 2027" src="https://img.shields.io/badge/AISTATS-2027-1d4ed8?style=flat-square">
+  <img alt="Anonymous Artifact" src="https://img.shields.io/badge/artifact-anonymous%20review-6d28d9?style=flat-square">
+  <img alt="SSL ASR" src="https://img.shields.io/badge/SSL--ASR-family%20signatures-0f766e?style=flat-square">
+  <img alt="Black-box attack" src="https://img.shields.io/badge/attack-black--box-f97316?style=flat-square">
+  <img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-334155?style=flat-square">
 </p>
 
 <p align="center">
