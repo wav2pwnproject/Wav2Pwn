@@ -1,0 +1,41 @@
+# Python bytecode and local caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS / editor metadata
+.DS_Store
+.vscode/
+.idea/
+
+# Experiment outputs and generated artifacts
+artifacts/
+results/
+logs/
+checkpoints/
+runs/
+*.log
+
+# Model and dataset payloads are not committed with the review artifact.
+dataset/*
+!dataset/README.md
+LibriSpeech/
+LibriSpeech_wav/
+CommonVoice_wav/
+voxpopuli/
+
+# Generated audio and figures
+*.wav
+*.flac
+*.mp3
+original_audio_spectrogram.png
+perturbed_audio_spectrogram.png
+
